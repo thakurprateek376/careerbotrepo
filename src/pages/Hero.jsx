@@ -11,7 +11,7 @@ export default function Hero(){
     const dispatch = useDispatch()
     const clickHandler=()=>
     {
-        window.open("https://chatgpt.com/")
+        window.open("https://app.thinkstack.ai/bot/previews/iframeview.html?bot=aHR0cHM6Ly9hcHAudGhpbmtzdGFjay5haS9ib3QvaW5kZXguaHRtbD9jaGF0Ym90X2lkPTY3ZjhiYjA3NzliMzQ3MzkwMjcxNTEwYiZ0eXBlPWlubGluZQ==")
     }
     React.useEffect(() => {
         async function fetchAuthentication() {
